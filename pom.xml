@@ -10,10 +10,12 @@
     <modules>
         <module>dispatcher</module>
         <module>common-rabbitmq</module>
+        <module>node</module>
     </modules>
 
     <properties>
         <java.version>11</java.version>
+        <telegrambot.starter.version>6.1.0</telegrambot.starter.version>
     </properties>
 
     <parent>
